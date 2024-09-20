@@ -1,12 +1,12 @@
-# Microserviço de Agendamento de Notificações
+# 🚀 Microserviço de Agendamento de Notificações
 
-## Descrição do Projeto
+## 📋 Descrição do Projeto
 
 Este projeto é um **microserviço de agendamento de notificações**, desenvolvido com **Java Spring Boot**, utilizando **MySQL** como banco de dados e executado em um contêiner **Docker**. O serviço permite que os usuários solicitem o agendamento de notificações, consultem agendamentos existentes e façam o cancelamento de notificações previamente programadas. Também foram implementadas rotinas agendadas utilizando o **Spring Scheduler** e uma estrutura eficiente de logs com o **SLF4J** para monitorar o sistema.
 
 ---
 
-## Funcionalidades Principais
+## ⚙️ Funcionalidades Principais
 
 1. **Solicitação de Agendamento de Notificações**:  
    Os usuários podem agendar notificações para uma data e hora futuras.
@@ -22,7 +22,7 @@ Este projeto é um **microserviço de agendamento de notificações**, desenvolv
 
 ---
 
-## Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
@@ -40,11 +40,3 @@ Este projeto é um **microserviço de agendamento de notificações**, desenvolv
 - **SLF4J**: Biblioteca de logging para garantir logs eficientes e consistentes durante a execução da aplicação.
 
 ---
-
-## Como Executar o Projeto
-
-### Pré-requisitos:
-
-- **Java 11+** instalado
-- **Docker** instalado para containerizar o banco de dados MySQL
-- **Maven** ou outra ferramenta de build Java
